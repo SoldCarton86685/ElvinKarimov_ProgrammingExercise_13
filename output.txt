@@ -1,0 +1,12 @@
+This program includes three main functions:
+
+create_population_db(): Creates a SQLite database named population_G3.db (using G3 for Grok 3) with a table population containing fields for city, year, and population. It inserts 2023 population data for 10 Florida cities.
+simulate_population_growth(): Simulates population changes from 2024 to 2043 for each city using random growth rates between -2% and 5% per year, inserting the results into the database.
+plot_population_growth(): Lists the 10 cities, prompts the user to select one, and displays a line plot of the population trend from 2023 to 2043 using matplotlib.
+To run this program, ensure you have Python, sqlite3, and matplotlib installed. The program will:
+
+Create the database and table
+Populate it with initial and simulated data
+Prompt you to select a city
+Display a plot of the population trend for the chosen city
+The output will be a matplotlib plot showing the population trend for the selected city over the 20-year period.
